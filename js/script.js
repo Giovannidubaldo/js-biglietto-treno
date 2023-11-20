@@ -17,4 +17,7 @@ else if(eta >= 65){
     prezzo = prezzo - prezzo * 40 / 100 + ' ' + 'Prezzo scontato del 40%'
     console.log(prezzo)
 }
-
+else{
+    prezzo = prezzo + ' ' + 'Prezzo base senza sconto'
+    console.log(prezzo)
+}

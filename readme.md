@@ -14,3 +14,4 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
    4.1.b - ?  persona over 65;
       4.2.b - sconto 40%;
 5 - : prezzo base senza sconto;
+6 - segnare il prezzo con due decimali;
