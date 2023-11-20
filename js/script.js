@@ -10,7 +10,11 @@ console.log(prezzo)
 
 // punto 4
 if(eta < 18){
-    prezzo = prezzo * 20 / 100 +' ' + 'prezzo scontato 20%'
+    prezzo = prezzo - prezzo * 20 / 100 + ' ' + 'Prezzo scontato del 20%'
+    console.log(prezzo)
+}
+else if(eta >= 65){
+    prezzo = prezzo - prezzo * 40 / 100 + ' ' + 'Prezzo scontato del 40%'
     console.log(prezzo)
 }
 
