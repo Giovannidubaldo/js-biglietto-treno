@@ -6,18 +6,28 @@ let eta = prompt('Inserisci la tua età');
 
 // punto 3
 let prezzo = 0.21 * km;
-console.log(prezzo)
+console.log(prezzo);
+
+// bonus
+document.getElementById('prezzo-biglietto').innerHTML = 'Il prezzo del tuo biglietto è: '
 
 // punto 4
 if(eta < 18){
-    prezzo = prezzo - prezzo * 20 / 100 + ' ' + 'Prezzo scontato del 20%'
-    console.log(prezzo)
+    prezzo = prezzo - prezzo * 20 / 100;
+    console.log(prezzo);
+    document.getElementById('prezzo-biglietto').innerHTML = document.getElementById('prezzo-biglietto').innerHTML 
+    + prezzo + '€' + ' ' + 'Prezzo scontato del 20%'
 }
 else if(eta >= 65){
-    prezzo = prezzo - prezzo * 40 / 100 + ' ' + 'Prezzo scontato del 40%'
-    console.log(prezzo)
+    prezzo = prezzo - prezzo * 40 / 100;
+    console.log(prezzo);
+    document.getElementById('prezzo-biglietto').innerHTML = document.getElementById('prezzo-biglietto').innerHTML 
+    + prezzo + '€' + ' ' + 'Prezzo scontato del 40%'
 }
 else{
-    prezzo = prezzo + ' ' + 'Prezzo base senza sconto'
-    console.log(prezzo)
+    prezzo = prezzo;
+    console.log(prezzo);
+    document.getElementById('prezzo-biglietto').innerHTML = document.getElementById('prezzo-biglietto').innerHTML 
+    + prezzo + '€' + ' ' + 'Prezzo base senza sconto'
 }
+
