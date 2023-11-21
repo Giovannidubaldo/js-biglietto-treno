@@ -9,9 +9,9 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 2 - chiedere all'utente la sua età;
 3 - calcolare il prezzo del biglietto in base ai km;
 4 - prezzo base = 0.21€ * km percorsi;
-   4.1.a - ? persona minorenne;
+   4.1.a - ? persona è minorenne;
       4.2.a - sconto 20%;
-   4.1.b - ?  persona over 65;
+   4.1.b - ?  persona è over 65;
       4.2.b - sconto 40%;
-5 - : prezzo base senza sconto;
+   5 - : prezzo base senza sconto;
 6 - segnare il prezzo con due decimali;
